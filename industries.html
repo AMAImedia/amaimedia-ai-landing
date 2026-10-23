@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Отрасли — AMAIMEDIA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    table { width:100%; border-collapse:collapse; background:var(--surface); border-radius:12px; overflow:hidden; }
+    th, td { padding:14px 16px; text-align:left; border-bottom:1px solid var(--line); }
+    th { background:var(--accent-dark); color:var(--accent); font-size:13px; text-transform:uppercase; letter-spacing:0.05em; }
+    tr:hover { background:rgba(184,227,81,0.05); }
+    .tag { display:inline-block; font-size:10px; font-weight:700; padding:3px 8px; border-radius:20px; background:rgba(184,227,81,0.15); color:var(--accent); margin-bottom:4px; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="logo"><span>AM</span> AMAIMEDIA</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="industries.html">Отрасли</a>
+        <a href="services.html">Услуги</a>
+        <a href="about.html">Команда</a>
+      </nav>
+      <a href="https://t.me/djbionicl" class="btn primary" target="_blank">Обсудить</a>
+    </div>
+  </header>
+  <section class="hero" style="padding:60px 0;">
+    <div class="wrap">
+      <h1 style="font-size:clamp(32px,5vw,52px);">17 отраслей: боль, цена, срок</h1>
+      <p class="lead">Пилот — работа нашей команды на одной задаче. Сервер и оборудование — всегда отдельной строкой.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div style="overflow-x:auto;">
+        <table>
+          <thead><tr><th>Отрасль</th><th>Что болит</th><th>Пилот, ₽</th><th>Срок</th><th>Сервер</th></tr></thead>
+          <tbody>
+            <tr><td><span class="tag">Камеры</span><br>Магазины и розница</td><td>Пустые полки, очереди, потери товара</td><td>0,6–1,2 млн</td><td>2–3 / 5–8 мес</td><td>300–700 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Бары и ночные клубы</td><td>Наливают без чека, остатки не сходятся</td><td>0,7–1,5 млн</td><td>2–3 / 4–6 мес</td><td>250–600 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Кафе и рестораны</td><td>Штрафы за санитарию, ожидание гостей</td><td>0,5–1,0 млн*</td><td>2–3 / 4–8 мес*</td><td>250–500 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Склад и логистика</td><td>Недостачи, простои машин, споры о грузе</td><td>0,8–1,6 млн*</td><td>2–3 / 4–8 мес*</td><td>0,5–1,5 млн ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Производство</td><td>Травмы, брак, нарушения ТБ</td><td>1,0–2,5 млн*</td><td>3–4 / 5–9 мес*</td><td>0,6–2 млн ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Строительство</td><td>Не по чертежу, пропадают материалы</td><td>1–2 млн</td><td>2–3 / 4–8 мес*</td><td>0,4–1,2 млн на площадку</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Автосервисы, АЗС</td><td>Споры о повреждениях, простой постов</td><td>0,6–1,2 млн*</td><td>2–3 / 4–8 мес*</td><td>300–800 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Отели</td><td>Споры об ущербе, непрозрачная уборка</td><td>0,6–1,2 млн*</td><td>2–3 / 4–8 мес*</td><td>250–550 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>УК и коттеджи</td><td>Посторонние машины, жалобы жильцов</td><td>0,6–1,2 млн*</td><td>2–3 / 4–8 мес*</td><td>400–900 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Клиники, салоны</td><td>Долгое ожидание, конфликты на ресепшене</td><td>0,5–1,0 млн*</td><td>2–3 / 4–8 мес*</td><td>250–600 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Фитнес, бассейны</td><td>Несчастные случаи у воды, перегрузка</td><td>0,8–1,5 млн*</td><td>3 / 5–8 мес*</td><td>350–900 тыс ₽</td></tr>
+            <tr><td><span class="tag">Камеры</span><br>Город: шлем, аварии</td><td>Нарушения замечают поздно</td><td>4–9 млн</td><td>4–6 / 9–18 мес</td><td>GPU-кластер от 2,5 млн</td></tr>
+            <tr><td><span class="tag">Звонки</span><br>Банки и колл-центры</td><td>Ручные отчёты, облачное распознавание дорого</td><td>1,5–3 млн</td><td>1,5–2 / 4–6 мес</td><td>GPU от 18 400 ₽/мес</td></tr>
+            <tr><td><span class="tag">Документы</span><br>Свой ИИ</td><td>Договоры вручную, регламенты не найти</td><td>0,7–1,5 млн</td><td>1–2 / 4–8 мес</td><td>Сервер 200–350 тыс</td></tr>
+            <tr><td><span class="tag">Расчёты</span><br>Каршеринг</td><td>Царапины без доказательств, грязный салон</td><td>0,8–1,5 млн</td><td>2–3 / 4–8 мес*</td><td>GPU для фото</td></tr>
+            <tr><td><span class="tag">Расчёты</span><br>Доставка еды</td><td>Опоздания, не хватает продуктов в пик</td><td>0,7–1,5 млн</td><td>2 / 3–6 мес*</td><td>Сервер от 80 тыс</td></tr>
+            <tr><td><span class="tag">Продукты</span><br>Сайт, приложение</td><td>Неудобно клиенту, нет онлайн-оплаты</td><td>0,15–0,9 млн</td><td>1–6 мес</td><td>Хостинг от 3 000 ₽/мес</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:20px; font-size:13px; color:var(--muted);">* — ориентир. Полный запуск обычно в 2–15 раз дороже пилота. Для Казахстана умножайте на 5,3.</p>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <a href="index.html" class="btn">← На главную</a>
+    </div>
+  </footer>
+</body>
+</html>
