@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Команда — AMAIMEDIA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .team { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px; }
+    .pers { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:24px; text-align:center; }
+    .pers .nm { font-family:var(--display); font-weight:800; font-size:18px; margin-top:12px; }
+    .pers .rl { color:var(--accent); font-size:13px; font-weight:600; margin:4px 0 8px; }
+    .pers .bio { font-size:14px; color:var(--text2); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="logo"><span>AM</span> AMAIMEDIA</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="industries.html">Отрасли</a>
+        <a href="services.html">Услуги</a>
+        <a href="about.html">Команда</a>
+      </nav>
+      <a href="https://t.me/djbionicl" class="btn primary" target="_blank">Обсудить</a>
+    </div>
+  </header>
+  <section class="hero" style="padding:60px 0;">
+    <div class="wrap">
+      <h1 style="font-size:clamp(32px,5vw,52px);">Команда</h1>
+      <p class="lead">На связи по проекту с первого звонка. 3–12 человек под вашу задачу.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="team">
+        <div class="pers">
+          <div class="nm">Ilia Bolotnikov</div>
+          <div class="rl">Основатель, CEO</div>
+          <div class="bio">Платформа NOESIS и всё, что связано с ИИ. На связи по проекту с первого звонка.</div>
+        </div>
+        <div class="pers">
+          <div class="nm">Zarina</div>
+          <div class="rl">Сооснователь</div>
+          <div class="bio">Дизайн и маркетинг. Отвечает за то, как система выглядит и как её показывать сотрудникам и клиентам.</div>
+        </div>
+        <div class="pers">
+          <div class="nm">Sergey</div>
+          <div class="rl">Сооснователь, CFO</div>
+          <div class="bio">Экономика проекта, сметы, договоры. Считает, чтобы клиент не переплатил в процессе.</div>
+        </div>
+        <div class="pers">
+          <div class="nm">Batima Zhanibekova</div>
+          <div class="rl">Сооснователь, R&D</div>
+          <div class="bio">Исследования и разработка моделей, Казахстан. Готовит детекторы под конкретные условия объекта.</div>
+        </div>
+      </div>
+      <div class="plain" style="margin-top:40px;">
+        <h3>Проектная команда под вашу задачу</h3>
+        <ul>
+          <li>ML-инженеры 1–3</li>
+          <li>Backend 1–2</li>
+          <li>Front и мобильные 1–2</li>
+          <li>DevOps и QA 1</li>
+          <li>Руководитель проекта 1</li>
+          <li><b>Итого 3–12 человек</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <a href="index.html" class="btn">← На главную</a>
+    </div>
+  </footer>
+</body>
+</html>
